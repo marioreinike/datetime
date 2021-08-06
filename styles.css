@@ -27,9 +27,11 @@ p {
   margin-top: 1rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  border: unset;
-  background-color: #ddd;
-  font-family: inherit;
+  border: 2px solid #ccc;
+  background-color: unset;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #input {
@@ -38,4 +40,9 @@ p {
   text-align: center;
   width: 1rem;
   display: inline-block;
+}
+
+#float {
+  position: absolute;
+  bottom: 1rem;
 }
