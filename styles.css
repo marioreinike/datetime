@@ -1,7 +1,12 @@
+:root {
+  --background: hsl(197, 19%, 81%);
+  --accent: rgb(128, 128, 128);
+}
+
 html {
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(0, 115, 156);
-  color: rgb(192, 192, 192);
+  background-color: var(--background);
+  color: var(--accent);
 }
 body {
   margin: 0;
@@ -27,9 +32,9 @@ p {
   margin-top: 1rem;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  border: 2px solid #ccc;
+  border: 2px solid var(--accent);
   background-color: unset;
-  color: #ccc;
+  color: var(--accent);
   text-transform: uppercase;
   font-weight: bold;
 }
