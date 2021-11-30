@@ -1,6 +1,6 @@
 :root {
-  --background: hsl(197, 19%, 81%);
-  --accent: rgb(128, 128, 128);
+  --background: rgb(19, 19, 19);
+  --accent: rgb(183, 195, 195);
 }
 
 html {
